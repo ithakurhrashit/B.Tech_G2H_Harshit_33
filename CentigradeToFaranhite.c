@@ -8,4 +8,7 @@ int main (){
 
     f=(9*c)/5+32;
     printf("farenhotie= %f",f);
+
+    return 0;
+
 }
