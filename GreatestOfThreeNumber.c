@@ -21,4 +21,6 @@ int main(){
             printf("third is greatest");
         }
     }
+    return 0;
+
 }
