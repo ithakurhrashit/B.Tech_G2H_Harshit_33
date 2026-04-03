@@ -1,0 +1,20 @@
+// finding minimum and maximum of an array 
+#include<stdio.h>
+int main(){
+    int min , ar[100],n;
+    printf("enter the number of elements of the aray");
+    scanf("%d",&n);
+    for(int i=0;i<n;i++){
+        printf("enter %d elements of array",i);
+        scanf("%d",&ar[i]);
+    }
+    min=ar[0];
+    for(int i=0 ; i<n;i++){
+        if(min>ar[i]){
+            min=ar[i];
+        }
+        
+    }
+    printf("the minimum element is %d",min);
+    return 0 ;
+}
